@@ -1,7 +1,5 @@
-const graphql = require("graphql");
+const { GraphQLObjectType, GraphQLString, GraphQLSchema } = require("graphql");
 const _ = require("lodash");
-
-const { GraphQLObjectType, GraphQLString, GraphQLSchema } = graphql;
 
 //mock data
 var books = [
